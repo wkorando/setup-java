@@ -439,7 +439,7 @@ public class Download {
           var s =
               browser.browse(
                   "https://raw.githubusercontent.com"
-                      + "/oracle-actions/setup-java/main" // user/repo/branch
+                      + "/wkorando/setup-java/main" // user/repo/branch
                       + "/jdk.java.net-uri.properties");
           URI_MAPPING.load(new StringReader(s));
         } catch (Exception exception) {
